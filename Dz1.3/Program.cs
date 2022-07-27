@@ -12,20 +12,16 @@ internal class Program
         Console.Write("Введите число: ");
         int N = Convert.ToInt32(Console.ReadLine());
         int num = 1;
-        int i = N;
         
-        while (i>num)
+        while (N>num)
         {
         
-            if (num % 2 > 0)
+            if (num % 2 == 0)
             {
-            num = num +1;
+            
+            Console.WriteLine($"{num}");
             }
-
-            else           
-        
-        Console.WriteLine($"{num}");
-        i=i+1;
+            num = num + 1;        
         
         }
 
